@@ -87,3 +87,8 @@ augroup black_on_save
   autocmd!
   autocmd BufWritePre *.py Black
 augroup end
+
+" enable ayu color scheme
+set termguicolors     " enable true colors support
+let ayucolor="mirage" " for mirage version of theme
+colorscheme ayu
